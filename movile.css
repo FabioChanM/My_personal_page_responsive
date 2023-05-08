@@ -176,6 +176,7 @@
                   width: 150px;
                 }
           }
+/*IPAD MINI*/
 @media  screen and (max-width:768px) {
   .black_line{
   justify-content: center;
@@ -582,7 +583,7 @@
                     }
                     .btn a{
                       margin-top: 0px;
-                    }
+                  }
                     .section_me3{
                       margin-top: 30px;
                       margin-bottom: -20px;
