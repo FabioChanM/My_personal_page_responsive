@@ -268,7 +268,7 @@ margin-left: 50px;
 }
 
 .otro1{
-background-color: white;
+background-color: none;
 padding: 15px;
 width: 300px;
 text-align: center;
@@ -278,7 +278,7 @@ border-bottom: 3px #d9483b solid;
 
 }
 .otro2{
-background-color: white;
+  background-color: none;
 padding: 15px;
 width: 300px;
 text-align: center;
@@ -288,8 +288,7 @@ border-bottom: 3px #d9483b solid;
 
 }
 .otro3{
-
-background-color: white;
+  background-color: none;
 padding: 15px;
 width: 300px;
 text-align: center;
@@ -324,6 +323,14 @@ display: flex;
 .hire_me{
 margin-top: 20px;
 }
+.hire_me2{
+  text-decoration: none;
+  margin-top: 100px;
+  margin-left:  230px;
+  }
+  .hire_me2 a{
+    text-decoration: none;
+  }
 #btn_hire{
   text-decoration: none;
   color: white;
@@ -397,7 +404,6 @@ margin-top: 20px;
         padding-left: 10px;
         padding-top: 10px;
         font-size: 20px;
-
       }
 .Submit{
 text-align: center;

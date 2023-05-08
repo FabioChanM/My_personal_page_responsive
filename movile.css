@@ -72,157 +72,135 @@
     text-decoration: none;
   }
   .about_me{
-    width: 600px;
+    max-width: 500px;
+    margin-bottom: 300px;
     text-align: center;
-    display: inline-block;
+    display: flex;
     }
+    .who_im{
+      float: right;
+      width: 250px;
+      margin-left: 70px;
 
+    }
+    .who_im h2{
+      margin-top: 0px;
+    }
+    .figure_me{
+      width: 450px;
+    }
     .image_container{
-      display: flex;
-        flex-wrap: wrap;
-        width: 500px;
+      max-width: 800px; 
       height: 500px;
-      margin-bottom: 700px;
+      margin-left: -140px;
     }
-    .section_me{
-      display: flex;
-      margin-top: 100px;
-      margin-left: 100px;
-    }
-    .sub_section{
-      padding-top: 10px;
-      }
-      .sub_section h2{
-        padding-left: 8px;
-        font-size: 35px;
-      }
-      .sub_section p{
-        margin-right: 40px;
-        margin-top: 5px;
-        font-size: 15px;
-      }
 
-      .who_im{
+    .data_me{
+      width: 700px;
+      height: 200px;
+      float: right;
+      margin-right: 100px;
+      }
+      .btn{
         margin-top: 50px;
-       width: 400px;
+        width: 250px;
+        height: 70px;
+        margin-left: 250px;
       }
-      .who_im h2{
-        margin-top: 30px;
-      }
-      .data_me{
-        width: 800px;
-        height: 200px;
-        }
-        .data_right{
+      .hire_me2{
+        margin-top: 80px;
         margin-left: 0px;
+      }
+      .otro{
+        text-align: center;
+      }
+      .otro3{
+        background-color: none;
+        padding: 15px;
+        width: 300px;
+        margin-top: 50px;
+        margin-right: 20px;
+        text-align: center;
+        display: inline-block;
+        border-bottom: 3px #D9483B solid;
         }
-        .data_left{
+        .black_line{
+          justify-content: center;
+          width: 820px;
+        height: 200px;
+        background-color: #2F2F2F;
+        display: flex;
+        }
+        .lets{
+          border-left: 0px;
+          text-align: left;
+          width: 400px;
+          color: white;
+          margin-top: 20px;
           margin-right: 0px;
         }
-     .btn{
-      text-align: center;
-     }
-        .btn a{
-          margin-top: 50px;
-          width: 250px;
-          height: 70px;
-          margin-bottom: 150px;
-        }
-        
-        #btn_pdf{
-          text-decoration: none;
-          color: #fff;
-          border-radius: 40px;
-          text-align: center;
-          width: 200px;
-          height: 50px;
-          background-color: #D9483B;
-          font-size: 15px;
-          border: none;
-        }
-        .section_me2{
-          margin-top: 200px;
-          display: flex;
-          margin-top: 50px;
-        }
-        .sub_section2 {
-          padding-top: 10px;
-          }
-          .sub_section2 h2{
-            padding-left: 8px;
-            font-size: 35px;
-          }
-          .sub_section2 p{
-            margin-left: 12px;
-            margin-top: 5px;
-            font-size: 15px;
-          }
-          .otro{
-            padding: 15px;
-            width: 500px;
-            text-align: center;
-          }
-          
-          .otro1{
-          background-color: white;
-          padding: 15px;
-          width: 300px;
-          text-align: center;
-          display: inline-block;
-          border-bottom: 3px #d9483b solid;
-          
-          }
-          .otro2{
-          background-color: white;
-          padding: 15px;
-          width: 300px;
-          text-align: center;
-          display: inline-block;
-          border-bottom: 3px #d9483b solid;
-          
-          }
-          .otro3{
-          background-color: white;
-          padding: 15px;
-          width: 300px;
-          text-align: center;
-          display: inline-block;
-          border-bottom: 3px #D9483B solid;
-          }
-
-          .black_line{
-            align-items: center;
-            justify-content: center;
-          height: 200px;
-          background-color: #2F2F2F;
-          display: flex;
-          }
-          .lets{
-            text-align: left;
-            max-width: 390px;
-            color: white;
-            margin-top: 20px;
-            margin-right: 0px;
-          }
-          .lets h2{
-            font-size: 30px;
-          }
-          .hire_me{
+        .hire_me3{
           margin-top: 20px;
+          margin-left: 50px;
           }
-          #btn_hire{
-            text-decoration: none;
-            color: white;
-            border-radius: 50px;
+          .otro_new{
+            padding: 15px;
+            max-width: 1200px;
+            font-weight: bold;
             text-align: center;
-            width: 150px;
-            height: 50px;
-            background-color: #d9483b;
-            font-size: 20px;
-            border: none;
           }
-
+          .amplitud{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: left;
+            max-width: 400px;
+            height: 150px;
+            margin: 20px;
+            border: 2px #CCCCCC solid;
+            color: #B6B6B6;
+            padding-left: 10px;
+            padding-top: 10px;
+            font-size: 20px;
+          }
+          .form_down{
+            color: white;
+            display: flex;
+          max-width: 820px;
+          height: 120px;
+          background-color: #000;
+                }
+                .down1{
+                  text-align: center;
+                  margin-top: 20px;
+                  margin-left: 80px;
+                  height: 50px;
+                  width: 150px;
+                }
+          }
+@media  screen and (max-width:768px) {
+  .black_line{
+  justify-content: center;
+  width: 768px;
+  height: 200px;
+  background-color: #2F2F2F;
+  display: flex;
+  }
+  .form_down{
+    color: white;
+    display: flex;
+  max-width: 768px;
+  height: 120px;
+  background-color: #000;
+        }
+        .data_me{
+          width: 700px;
+          height: 200px;
+          float: right;
+          margin-right: 80px;
+          }
 }
+
+
+
 /*MOVIL*/
 @media screen and (max-width: 414px) {
   /* menu */
@@ -324,11 +302,6 @@
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
   }
-  .section_me{
-    display: flex;
-    margin-top: 100px;
-    margin-left: 0px;
-  }
   .section_me2{
     margin-top: 200px;
     display: flex;
@@ -344,7 +317,7 @@
     text-align: center;
   }
   .otro1{
-    background-color: white;
+    background-color: none;
     width: 300px;
     text-align: center;
     display: inline-block;
@@ -354,7 +327,7 @@
     }
 
     .otro2{
-    background-color: white;
+    background-color: none;
     padding: 15px;
     width: 300px;
     text-align: center;
@@ -364,7 +337,7 @@
     
     }
     .otro3{
-    background-color: white;
+    background-color: none;
     padding: 15px;
     width: 300px;
     text-align: center;
@@ -380,9 +353,10 @@
       text-align: center;
       max-width: 414px;
       max-width: 393px;
+      margin-bottom: 250px;
        }
        .about_me2{
-        margin-top: 250px;
+        margin-top: 200px;
         text-align: center;
         max-width: 414px;
         max-width: 393px;
@@ -392,14 +366,21 @@
         min-width: 395px;
        }
       .image_container{
-        margin-top: 20px;
+        margin-top: 10px;
           max-width: 414px;
-        height: 400px;
+          margin-left: -40px;
+        height: 300px;
         align-items: center;
         text-align: center;
       }
+      .image_container img{
+        float: none;
+        object-fit: cover;
+         width: 350px;
+         height: 400px;
+         }
       .section_me{
-        margin-top: 50px;
+        margin-top: 850px;
         display: flex;
         margin-left: 0px;
       }
@@ -417,10 +398,12 @@
         }
   
 .who_im{
+  float: none;
    margin-right: 0px;
           margin-top: 50px;
           max-width: 414px;
          min-width: 390px;
+         margin-left: 40px;
         }
 .who_im h2{
           margin-top: 30px;
@@ -546,19 +529,25 @@
               color: white;
             }
               .data_me{
+                margin-top: -80px;
                 max-width: 414px;
                 min-width: 393px;
                 height: 200px;
                 float: none;
-                margin-right: 0px;
+                margin-right: -50px;
+                }
+                .hire_me2{
+                  margin-top: -50px;
+                  margin-left: 50px;
                 }
                 .data_right{
                 float: none;
-                margin-left: 0px;
+                margin-left: 50px;
                 }
                 .data_left{
                   float: none;
                   margin-right: 0px;
+                  margin-left:55px;
                 }
                 .Web1{
                   background-image: url(imagenes/BINDAS.png);
@@ -568,7 +557,6 @@
                   background-size: cover;
                   display: inline-block;
                   margin-right: 0px;
-                  
                   }
                   .Web2{
                     background-image: url(imagenes/ENERGKI.png);
@@ -595,4 +583,12 @@
                     .btn a{
                       margin-top: 0px;
                     }
+                    .section_me3{
+                      margin-top: 30px;
+                      margin-bottom: -20px;
+                    }
+                    .hire_me3{
+                      margin-top: 20px;
+                      margin-left: 0px;
+                      }
 }
