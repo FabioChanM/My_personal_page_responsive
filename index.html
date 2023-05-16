@@ -56,7 +56,7 @@
          <br>
           <h1>I'm Fabio Chan, a Mechatronics Engineer, programer and Web Developer</h1>
           <br>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit animi praesentium debitis vitae. Deleniti, eius fugit, eligendi eveniet perspiciatis id a dolorem qui doloremque omnis vero ea aspernatur numquam, iusto similique accusantium nisi earum placeat quaerat ipsum recusandae. Alias culpa distinctio aliquam fuga, ? </p>
+          <p>I am a Mechatronics Engineer with experience in web development and strong proficiency in languages such as HTML, C++, C#, among others. I am passionate about programming and constantly stay updated through courses and consultations to stay abreast of the latest practices and advancements in the field. My approach is focused on efficiency and responsibility, always willing to learn and embrace new professional challenges with enthusiasm and determination. </p>
         </div>
         <br>
         <br>
@@ -99,7 +99,7 @@
           <i class="fa-brands fa-html5 html_img" ></i>
           <h2>HTML 5</h2>
           <br class="eliminar">
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi quia cum necessitatibus eligendi</p>
+          <p>Experience with HTML5 and its effective implementation for the development of modern web pages.</p>
       </div>
 
       <div class="otro2">
@@ -107,13 +107,13 @@
         <br>
         <h2>CCS 3</h2>
         <br class="eliminar">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi quia cum necessitatibus eligendi</p>
+        <p>Experience in CSS3 for creating modern and appealing web designs using animations and Boostrap.</p>
       </div>
       <div class="otro3">
         <i class="fa-brands fa-square-js html_img"></i>
         <h2>JAVASCRIPT</h2>
         <br class="eliminar">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi quia cum necessitatibus eligendi</p>
+        <p>Experience with JavaScript for developing interactive and dynamic web applications.</p>
   </div>
    <br><br><br><br>
       </section>
@@ -122,21 +122,20 @@
           <i class="fa-solid fa-mobile-screen-button html_img"></i>
           <h2>FULLY RESPONSIVE</h2>
           <br class="eliminar">
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi quia cum necessitatibus eligendi</p>
+          <p>Experience with responsive web design</p>
       </div>
-    
       <div class="otro2">
         <i class="fa-brands fa-git-alt html_img"></i>
         <br>
         <h2>GIT</h2>
         <br class="eliminar">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi quia cum necessitatibus eligendi</p>
+        <p>Git for version control and efficient collaboration in development projects.</p>
       </div>
       <div class="otro3">
         <i class="fa-brands fa-php html_img"></i>
         <h2>PHP</h2>
         <br class="eliminar">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi quia cum necessitatibus eligendi</p>
+        <p>Web application development using PHP for creating dynamic and functional websites.</p>
     </div>
       </div>
   </div>
@@ -148,7 +147,7 @@
             <article class="lets">
             <h2>Let's work together</h2>
             <br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem</p>
+            <p>Tell me about your project and let's do it</p>
             </article>
           <article class="hire_me3">
             <a href="https://drive.google.com/file/d/1_gW6GAbFVFBvyMKLQHxVTg19KOwIAq52/view?usp=sharing" target="_blank"> 
@@ -180,6 +179,10 @@
             <div class="Web3">
           </div>
         </a>
+        <a class="" href="https://fabiochanm.github.io/Geyler_magana_page/" target="_blank">
+          <div class="Web4">
+        </div>
+      </a>
             </div>
         </div>
         <br>
@@ -199,8 +202,8 @@
                   <form action="enviar.php" method="post" class="form ancho wow animate__animated animate__fadeIn" id="Form">
 
                     <div class="boxes">
-                      <input class="squares" type="text" name="nombre" placeholder="Nombre">
-                <input requiered class="squares" type="text" name="apellido" placeholder="Apellidos">
+                      <input class="squares" type="text" name="nombre" placeholder="Name">
+                <input requiered class="squares" type="text" name="apellido" placeholder="Last namne">
                 <input requiered class="squares" type="text" name="email" placeholder="E-mail">
                 <input required class="squares" type="text" name="telefono" placeholder="Phone">
                 <div class="izquierda">
@@ -233,16 +236,16 @@
           </footer>
           <div class="fondo_negro ancho">
           <div class="social wow animate__animated animate__fadeIn">
-            <a href=""" target="_blank">
+            <a href="https://www.facebook.com/faleo.cha/" target="_blank">
               <i class="fa-brands fa-facebook"></i>
             </a>
-            <a href="https://www.facebook.com/" target="_blank">
+            <a href="https://www.youtube.com/channel/UCJang8Ri7k6-weSzf5pyq0A" target="_blank">
               <i class="fa-brands fa-youtube"></i>
             </a>
             <a href="https://www.instagram.com/fabioleon00/" target="_blank">
               <i class="fa-brands fa-instagram"></i>
             </a>
-            <a href="https://www.instagram.com/fabioleon00/" target="_blank">
+            <a href="https://github.com/FabioChanM" target="_blank">
               <i class="fa-brands fa-square-github"></i>
             </a>
             <div class="reserved">
@@ -260,7 +263,20 @@
           </script>
              <script src="js/wow.min.js"></script>
              <script>
+              $("#iconomenu").click(function () {
+	$("#contenedormenu").toggleClass("abrirmenu")
+});
+//acordeon
+$(".titulo_abrir").click(function () {
+		var este_elemento = $(this);
+		var activar = este_elemento.next();
+		activar.slideToggle();
+	});
+	new WOW().init();
+             </script>
+             <script>
              new WOW().init();
              </script>
+             
 </body>
 </html>

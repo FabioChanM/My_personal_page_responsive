@@ -263,7 +263,10 @@ nav ul li a {
   padding: 15px;
   text-align: center;
 }
-
+.otro div i:hover{
+  color: #000;
+  transition: 0.5s;
+}
 .otro1 {
   background-color: none;
   padding: 15px;
@@ -344,10 +347,16 @@ nav ul li a {
   color: #1f3d93;
   text-align: center;
 }
+.otro_new a:hover{
+box-shadow: #2f2f2f;
+opacity: 0.7;
+  transition: 0.5s;
+}
 .Web1 {
+  object-fit: cover;
   background-image: url(imagenes/BINDAS.png);
-  width: 250px;
-  height: 150px;
+  width: 450px;
+  height: 250px;
   padding: 15px;
   background-size: cover;
   display: inline-block;
@@ -355,8 +364,8 @@ nav ul li a {
 }
 .Web2 {
   background-image: url(imagenes/ENERGKI.png);
-  width: 250px;
-  height: 150px;
+  width: 450px;
+  height: 250px;
   padding: 15px;
   background-size: cover;
   display: inline-block;
@@ -364,9 +373,19 @@ nav ul li a {
 }
 .Web3 {
   background-image: url(imagenes/PINTEREST.png);
-  width: 250px;
-  height: 150px;
+  width: 450px;
+  height: 250px;
   padding: 15px;
+  background-size: cover;
+  display: inline-block;
+  margin-right: 40px;
+}
+.Web4 {
+  background-image: url(imagenes/GEYLER.png);
+  border: 1px var(--letras_azules) solid;
+  width: 450px;
+  height: 250px;
+  padding: 30px;
   background-size: cover;
   display: inline-block;
   margin-right: 40px;
